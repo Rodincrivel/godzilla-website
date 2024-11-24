@@ -1,0 +1,11 @@
+.oil-impact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 270px;
+}
+
+.container-paragraph-oil-impact {
+    width: 423px;
+}
