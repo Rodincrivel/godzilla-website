@@ -6,10 +6,10 @@ import Header from './components/header';
 
 // Importação das páginas
 import Home from './pages/home';
-import SobreNos from './pages/sobre-nos';
-import OndeColetamos from './pages/onde-coletamos';
+import SobreNos from './pages/sobreNos';
+import OndeColetamos from './pages/ondeColetamos';
 import Parceiros from './pages/parceiros';
-import FaleConosco from './pages/fale-conosco';
+import FaleConosco from './pages/faleConosco';
 
 const App = () => {
   return (

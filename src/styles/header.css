@@ -1,0 +1,88 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-info {
+    background: rgb(22, 64, 28);
+    background: -moz-linear-gradient(52deg, rgba(22, 64, 28, 1) 56%, rgba(166, 143, 31, 1) 56%);
+    background: -webkit-linear-gradient(52deg, rgba(22, 64, 28, 1) 56%, rgba(166, 143, 31, 1) 56%);
+    background: linear-gradient(52deg, rgba(22, 64, 28, 1) 56%, rgba(166, 143, 31, 1) 56%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+    gap: 500px;
+    margin-bottom: 12px;
+}
+
+.info-one {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100;
+}
+
+.info-two {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.container-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 64px;
+}
+
+
+/* Logos */
+
+.header-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+}
+
+
+/* Nav */
+
+.header-nav {
+    display: flex;
+    gap: 32px;
+}
+
+/* Estilo dos Links */
+
+.nav-link {
+    text-decoration: none;
+    color: #A68F1F;
+    /* Cor do link inativo */
+    font-family: 'Poppins', sans-serif;
+    /* Fonte Poppins */
+    font-weight: 700;
+    /* Peso bold */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    padding: 10px;
+    /* Padding de 10px */
+    border-radius: 6px;
+    /* Opcional: adiciona bordas arredondadas */
+    transition: background-color 0.3s, color 0.3s;
+    /* Transição suave */
+}
+
+/* Estilo do Link Ativo */
+.nav-link.active {
+    background-color: #A68F1F;
+    /* Background color ativo */
+    color: #FFFFFF;
+    /* Cor do link ativo */
+}
