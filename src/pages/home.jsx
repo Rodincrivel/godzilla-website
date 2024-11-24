@@ -32,26 +32,37 @@ const Home = () => {
                 />
             </div>
 
-            <section>
-                <div className="conscious-disposal">
+            <section className="conscious-disposal">
+                <div className="container-disposal">
                     <div className="container-step">
-                        <div className="style-step"></div>
-                        <div>
+                        <di className="style-step">
                             <h3>1º PASSO</h3>
                             <p>Deixe o Óleo esfriar</p>
-                        </div>
-                        <div>
+                        </di>
+                        <div className="style-step">
                             <h3>2º PASSO</h3>
                             <p>Armazenar na garrafa Pet</p>
                         </div>
-                        <div>
+                        <div className="style-step">
                             <h3>3º PASSO</h3>
                             <p>Fechar bem a Garrafa</p>
                         </div>
+                        <div className="style-step">
+                            <h3>4º PASSO</h3>
+                            <p>Levar ao ponto de coleta</p>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    
+                <div className="move-container">
+                    <video
+                        src="/descarte.mp4"
+                        controls
+                        width="100%"
+                        height="auto"
+                        className="descarte-video"
+                    >
+                        Seu navegador não suporta o elemento de vídeo.
+                    </video>
                 </div>
             </section>
         </>

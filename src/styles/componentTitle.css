@@ -23,3 +23,8 @@
     font-weight: 700; /* Normal */
     color: #16401C; 
   }
+
+  .move-container {
+    width: 661px;
+    height: 298px;
+  }
