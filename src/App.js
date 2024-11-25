@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Importação do Header
 import Header from './components/header';
+import Footer from './components/footer';
 
 // Importação das páginas
 import Home from './pages/home';
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/parceiros" element={<Parceiros />} />
         <Route path="/fale-conosco" element={<FaleConosco />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };

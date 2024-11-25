@@ -1,0 +1,26 @@
+.footer {
+    background-color: #A68F1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 6px
+}
+
+.footer section {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    margin-bottom: 12px;
+    padding: 12px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer.nav-link-footer {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
