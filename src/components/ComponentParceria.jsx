@@ -74,7 +74,7 @@ const ComponentParceria = () => {
     return (
         <section className={`container-parcerias ${containerClass}`}>
 
-            <div className="testando">
+            <div className="container-content-parcerias">
                 {/* Utilizando o componente ComponentTitle com os dados atuais */}
                 <ComponentTitle
                     title={parcerias[currentParceria].title}
@@ -84,7 +84,7 @@ const ComponentParceria = () => {
                 {/* Seção de diferenciais */}
                 <section className="diferenciais">
                     {parcerias[currentParceria].diferenciais.map((item, index) => (
-                        <div key={index} className="testando2">
+                        <div key={index} className="container-diferenciais">
                             <h5>{item.title}</h5>
                             <p>{item.paragraph}</p>
                         </div>
