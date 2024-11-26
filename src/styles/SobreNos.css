@@ -76,3 +76,8 @@
     width: 894px;
     text-align: center;
 }
+
+.container-card {
+    display: flex;
+    gap: 150px;
+}

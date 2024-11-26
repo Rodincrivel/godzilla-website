@@ -2,6 +2,7 @@ import React from 'react';
 import ComponentTitle from "../components/ComponentTitle";
 import ComponentValores from '../components/ComponentValores';
 import ComponentParceria from '../components/ComponentParceria';
+import ComponentFuncionarios from '../components/ComponentFuncionarios';
 
 import '../styles/SobreNos.css';
 
@@ -62,7 +63,7 @@ const SobreNos = () => {
         <ComponentParceria />
       </div>
 
-      <div className='container-operacao'>
+      <section className='container-operacao'>
         <div className='title-operacao'>
           <ComponentTitle
             title="OPERAÇÃO"
@@ -71,7 +72,27 @@ const SobreNos = () => {
         </div>
         <p className='paragraph-style'>Confira abaixo a equipe autorizada de coleta. Para sua segurança, é crucial desconsiderar qualquer mensagem ou abordagem de pessoas que não façam parte do nosso quadro oficial de coleta. Dessa forma, evitamos possíveis fraudes e roubos.</p>
 
-      </div>
+        <div className='container-card'>
+          <ComponentFuncionarios
+            imgSrc="/funcionario-01.png"
+            subtitulo="Nome:"
+            paragraph="Luis Sávio Santos de Siqueira"
+          />
+
+          <ComponentFuncionarios
+            imgSrc="/funcionario-01.png"
+            subtitulo="Nome:"
+            paragraph="Luis Sávio Santos de Siqueira Jr"
+          />
+
+          <ComponentFuncionarios
+            imgSrc="/funcionario-01.png"
+            subtitulo="Nome:"
+            paragraph="Fernando Almeida Spencer"
+          />
+        </div>
+
+      </section>
     </>
   );
 };
