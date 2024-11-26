@@ -6,10 +6,10 @@ import '../styles/home.css'
 const Home = () => {
 
 
-    
+
     return (
         <>
-            <div>
+            <div className="container-title">
                 <ComponentTitle
                     title="BEM VINDO AO SITE DA GODZILLA COLETA DE ÓLEO"
                     subtitle="ENTENDA O IMPACTO DO ÓLEO NO MEIO AMBIENTE"
@@ -29,7 +29,7 @@ const Home = () => {
                     <img src="/imagem-home.jpg" alt="Imagem do Impacto do Óleo no meio ambiente" />
                 </div>
             </section>
-            <div>
+            <div className="container-title">
                 <ComponentTitle
                     title="DESCARTE CONSCIENTE"
                     subtitle="PASSO A PASSO PARA O DESCARTE CORRETO"
@@ -70,7 +70,9 @@ const Home = () => {
                 </div>
             </section>
 
-            <ComponentParceria />
+            <div className="container-parceria">
+                <ComponentParceria />
+            </div>
 
         </>
     );

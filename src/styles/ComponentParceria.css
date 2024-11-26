@@ -5,11 +5,11 @@
 }
 
 .parceria-1 {
-    background-color: red;
+    background-color: #D2122E;
 }
 
 .parceria-2 {
-    background-color: #FF6A00;
+    background-color: #FF7F50;
 }
 .parceria-buttons {
     display: flex;
@@ -55,7 +55,7 @@
 }
 
 .diferenciais h5 {
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 10px;
 }
