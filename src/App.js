@@ -9,7 +9,6 @@ import Footer from './components/footer';
 import Home from './pages/home';
 import SobreNos from './pages/sobreNos';
 import OndeColetamos from './pages/ondeColetamos';
-import Parceiros from './pages/parceiros';
 import FaleConosco from './pages/faleConosco';
 
 const App = () => {
@@ -22,7 +21,6 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/sobre-nos" element={<SobreNos />} />
         <Route path="/onde-coletamos" element={<OndeColetamos />} />
-        <Route path="/parceiros" element={<Parceiros />} />
         <Route path="/fale-conosco" element={<FaleConosco />} />
       </Routes>
       <Footer />

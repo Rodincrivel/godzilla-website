@@ -1,0 +1,71 @@
+.container-parcerias {
+    transition: background 0.5s ease; /* Adiciona transição suave ao mudar o background */
+    color: #fff; /* Ajuste a cor do texto conforme necessário */
+    padding: 24px;
+}
+
+.parceria-1 {
+    background-color: red;
+}
+
+.parceria-2 {
+    background-color: #FF6A00;
+}
+.parceria-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.parceria-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.parceria-buttons button.active,
+.parceria-buttons button:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.testando {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.diferenciais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.testando h1 {
+    color: #F5F5F5;
+}
+
+.testando h2 {
+    color: #F5F5F5; 
+}
+
+.diferenciais h5 {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+.testando2 {
+    flex-direction: column;
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 230px;
+    padding: 10px;
+}

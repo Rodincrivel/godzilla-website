@@ -19,19 +19,16 @@ const Footer = () => {
                         <Link to="/" className="nav-link-footer">
                             HOME
                         </Link>
-                        
+
                         <Link to="/sobre-nos" className="nav-link-footer">
                             SOBRE NÓS
                         </Link>
-                        
+
                         <Link to="/onde-coletamos" className="nav-link-footer">
                             ONDE COLETAMOS
                         </Link>
-                        
-                        <Link to="/parceiros" className="nav-link-footer">
-                            PARCEIROS
-                        </Link>
-                        
+
+
                         <Link to="/fale-conosco" className="nav-link-footer">
                             FALE CONOSCO
                         </Link>
@@ -45,7 +42,7 @@ const Footer = () => {
                 </div>
             </section>
             <div></div>
-            <p>© 2024 Godzilla coleta de óleo - Todos os direitos reservados - Desenvolvimento: <a href="https://github.com/Rodincrivel" target="_blank" rel="noopener noreferrer">Rodrigo Holanda</a></p>
+            <p>© 2024 Godzilla Coleta de Óleo - Todos os direitos reservados - Desenvolvimento: <a href="https://github.com/Rodincrivel" target="_blank" rel="noopener noreferrer">Rodrigo Holanda</a></p>
         </footer>
     );
 };

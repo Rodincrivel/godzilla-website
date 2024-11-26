@@ -1,8 +1,12 @@
 import React from "react";
 import ComponentTitle from "../components/ComponentTitle";
+import ComponentParceria from '../components/ComponentParceria';
 import '../styles/home.css'
 
 const Home = () => {
+
+
+    
     return (
         <>
             <div>
@@ -65,6 +69,9 @@ const Home = () => {
                     </video>
                 </div>
             </section>
+
+            <ComponentParceria />
+
         </>
     );
 };
