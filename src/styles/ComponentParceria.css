@@ -14,6 +14,7 @@
 .parceria-buttons {
     display: flex;
     justify-content: center;
+    margin-top: 24px;
 }
 
 .parceria-buttons button {
@@ -34,14 +35,14 @@
 .container-diferenciais {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
 }
 
 .diferenciais {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: row;
     gap: 150px;
 }

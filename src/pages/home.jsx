@@ -1,6 +1,5 @@
 import React from "react";
 import ComponentTitle from "../components/ComponentTitle";
-import ComponentParceria from '../components/ComponentParceria';
 import '../styles/home.css'
 
 const Home = () => {
@@ -69,11 +68,6 @@ const Home = () => {
                     </video>
                 </div>
             </section>
-
-            <div className="container-parceria">
-                <ComponentParceria />
-            </div>
-
         </>
     );
 };

@@ -1,5 +1,6 @@
 import React from 'react';
 import ComponentTitle from "../components/ComponentTitle";
+import '../styles/OndeColetamos.css';
 
 
 const OndeColetamos = () => {
