@@ -8,7 +8,7 @@ import Footer from './components/footer';
 // Importação das páginas
 import Home from './pages/home';
 import SobreNos from './pages/sobreNos';
-import Parceiros from './pages/Parceiros';
+import Parceiros from './pages/parceiros';
 import FaleConosco from './pages/faleConosco';
 
 const App = () => {

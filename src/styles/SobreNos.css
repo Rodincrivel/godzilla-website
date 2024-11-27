@@ -4,28 +4,34 @@
     align-items: center;
     gap: 139px;
 }
+
 .container-card-shape {
     width: 370px;
     height: 556px;
     display: flex;
     flex-direction: column;
-    position: relative; /* Necessário para posicionar os elementos filhos */
+    position: relative;
+    /* Necessário para posicionar os elementos filhos */
 }
 
 .container-card-apresentacao-1 {
     width: 370px;
     height: 272px;
     display: flex;
-    z-index: 1; /* Garante que este card fique acima do círculo */
-    margin-bottom: 12px; /* Espaçamento entre os cards */
+    z-index: 1;
+    /* Garante que este card fique acima do círculo */
+    margin-bottom: 12px;
+    /* Espaçamento entre os cards */
 }
 
 .container-card-apresentacao-2 {
     width: 370px;
     height: 272px;
     display: flex;
-    justify-content: end; /* Posiciona o segundo card à direita */
-    z-index: 2; /* Garante que este card também fique acima do círculo */
+    justify-content: end;
+    /* Posiciona o segundo card à direita */
+    z-index: 2;
+    /* Garante que este card também fique acima do círculo */
 }
 
 .card-apresentacao {
@@ -33,18 +39,26 @@
     height: 272px;
     background-color: #D9D9D9;
     position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .shape-circle {
     width: 250px;
-    height: 250px; /* Tornar a altura igual à largura para formar o círculo */
+    height: 250px;
+    /* Tornar a altura igual à largura para formar o círculo */
     background-color: #A5F2A2;
-    border-radius: 50%; /* Faz o elemento ser um círculo */
-    position: absolute; /* Permite posicionar o círculo livremente */
-    top: 50%; /* Centraliza verticalmente */
-    left: 50%; /* Centraliza horizontalmente */
-    transform: translate(-50%, -50%); /* Ajusta o ponto de origem para o centro */
-    z-index: 0; /* Garante que o círculo fique atrás dos cards */
+    border-radius: 50%;
+    /* Faz o elemento ser um círculo */
+    position: absolute;
+    /* Permite posicionar o círculo livremente */
+    top: 50%;
+    /* Centraliza verticalmente */
+    left: 50%;
+    /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%);
+    /* Ajusta o ponto de origem para o centro */
+    z-index: 0;
+    /* Garante que o círculo fique atrás dos cards */
 }
 
 
@@ -54,10 +68,14 @@
 }
 
 .card-apresentacao video {
-    width: 100%; /* O vídeo ocupa toda a largura do card */
-    height: 100%; /* O vídeo ocupa toda a altura do card */
-    object-fit: cover; /* Ajusta o vídeo para preencher o card sem distorcer */
-    border-radius: 8px; /* Opcional: arredonda os cantos do vídeo */
+    width: 100%;
+    /* O vídeo ocupa toda a largura do card */
+    height: 100%;
+    /* O vídeo ocupa toda a altura do card */
+    object-fit: cover;
+    /* Ajusta o vídeo para preencher o card sem distorcer */
+    border-radius: 8px;
+    /* Opcional: arredonda os cantos do vídeo */
 }
 
 .title-operacao {

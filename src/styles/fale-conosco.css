@@ -5,3 +5,27 @@
     align-items: center;
     width: 894px;
 }
+
+.paragraphStyles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 894px;
+    margin-top: 12px;
+}
+
+.container-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-top: 48px;
+}
