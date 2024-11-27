@@ -14,6 +14,7 @@ const Home = () => {
                     subtitle="ENTENDA O IMPACTO DO ÓLEO NO MEIO AMBIENTE"
                 />
             </div>
+
             <section className="oil-impact">
                 <div className="container-paragraph-oil-impact">
                     <div className="paragraph-oil-impact">

@@ -43,25 +43,24 @@ const SobreNos = () => {
         <ComponentValores
           subtitulo="Conscientização"
           paragraph="Temos como objetivo levar a conscientização sobre a reciclagem do Óleo de cozinha, mostrando alternativas a população através de projetos, parcerias com muita dedicação e amor."
-          imgSrc="/logoNome.png"
+          imgSrc="/valores-1.png"
         />
 
         <ComponentValores
           subtitulo="Prestação de Serviços"
           paragraph="Através do trabalho conjunto aos nossos parceiros reciclamos milhares de litros de óleo por mês. Fornecemos o recipiente para armazenamento do Óleo e trocamos o Óleo por produto ou compramos."
-          imgSrc="/logoNome.png"
+          imgSrc="/valores-2.png"
         />
 
         <ComponentValores
           subtitulo="Compromisso"
           paragraph="Coletamos em até 48 horas após a solicitação, fornecemos toda a documentação exigida e disponibilizamos recipientes adequados para o armazenamento."
-          imgSrc="/logoNome.png"
+          imgSrc="/valores-3.png"
         />
       </section>
 
-      <div className="container-parceria">
-        <ComponentParceria />
-      </div>
+
+      <ComponentParceria />
 
       <section className='container-operacao'>
         <div className='title-operacao'>

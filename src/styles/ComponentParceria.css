@@ -1,8 +1,12 @@
 .container-parcerias {
-    transition: background 0.5s ease; /* Adiciona transição suave ao mudar o background */
-    color: #fff; /* Ajuste a cor do texto conforme necessário */
+    width: 100%;
+    box-sizing: border-box;
+    transition: background 0.5s ease;
+    color: #fff;
     padding: 24px;
+    margin-top: 48px;
 }
+
 
 .parceria-1 {
     background-color: #D2122E;
@@ -11,6 +15,7 @@
 .parceria-2 {
     background-color: #FF7F50;
 }
+
 .parceria-buttons {
     display: flex;
     justify-content: center;
@@ -47,12 +52,20 @@
     gap: 150px;
 }
 
+.container-content-parcerias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
 .container-content-parcerias h1 {
     color: #F5F5F5;
 }
 
 .container-content-parcerias h2 {
-    color: #F5F5F5; 
+    color: #F5F5F5;
 }
 
 .diferenciais h5 {
@@ -63,7 +76,7 @@
 
 .container-diferenciais {
     flex-direction: column;
-    display: flex; 
+    display: flex;
     align-items: center;
     text-align: center;
     width: 300px;

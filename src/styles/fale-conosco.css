@@ -1,0 +1,7 @@
+.container-fale-conosco {
+    display: flex;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+    width: 894px;
+}

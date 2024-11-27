@@ -24,8 +24,8 @@ const Footer = () => {
                             SOBRE NÓS
                         </Link>
 
-                        <Link to="/onde-coletamos" className="nav-link-footer">
-                            ONDE COLETAMOS
+                        <Link to="/parceiros" className="nav-link-footer">
+                            PARCEIROS
                         </Link>
 
 
