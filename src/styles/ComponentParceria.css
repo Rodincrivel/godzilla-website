@@ -83,3 +83,20 @@
     height: 230px;
     padding: 10px;
 }
+
+@media (max-width: 780px) {
+    .diferenciais {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .container-content-parcerias h2 {
+        font-size: 18px;
+    }
+
+    .diferenciais h5 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+}
