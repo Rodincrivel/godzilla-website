@@ -39,10 +39,10 @@ const Home = () => {
             <section className="conscious-disposal">
                 <div className="container-disposal">
                     <div className="container-step">
-                        <di className="style-step">
+                        <div className="style-step">
                             <h3>1º PASSO</h3>
                             <p>Deixe o Óleo esfriar</p>
-                        </di>
+                        </div>
                         <div className="style-step">
                             <h3>2º PASSO</h3>
                             <p>Armazenar na garrafa Pet</p>

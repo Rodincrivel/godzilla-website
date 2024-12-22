@@ -27,3 +27,14 @@
     width: 661px;
     height: 298px;
   }
+
+  
+@media (max-width: 780px) {
+  .component-title h1 {
+    font-size: 12px;
+  }
+  
+  .component-title h2 {
+    font-size: 14px;
+  }
+}

@@ -23,7 +23,7 @@
 .info-one {
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 100;
+    font-size: 100; /* Verifique se não faltou unidade (px) aqui */
 }
 
 .info-two {
@@ -40,9 +40,7 @@
     gap: 64px;
 }
 
-
 /* Logos */
-
 .header-logos {
     display: flex;
     justify-content: center;
@@ -51,38 +49,143 @@
     gap: 16px;
 }
 
-
 /* Nav */
-
 .header-nav {
     display: flex;
     gap: 32px;
 }
 
 /* Estilo dos Links */
-
 .nav-link {
     text-decoration: none;
     color: #A68F1F;
-    /* Cor do link inativo */
     font-family: 'Poppins', sans-serif;
-    /* Fonte Poppins */
     font-weight: 700;
-    /* Peso bold */
     font-size: 16px;
-    /* Tamanho da fonte */
     padding: 10px;
-    /* Padding de 10px */
     border-radius: 6px;
-    /* Opcional: adiciona bordas arredondadas */
     transition: background-color 0.3s, color 0.3s;
-    /* Transição suave */
 }
 
-/* Estilo do Link Ativo */
 .nav-link.active {
     background-color: #A68F1F;
-    /* Background color ativo */
     color: #FFFFFF;
-    /* Cor do link ativo */
+}
+
+/* Por padrão, esconde o menu mobile no desktop */
+.mobile-menu-icon,
+.mobile-nav-containe {
+    display: none;
+}
+
+.mobile-nav-container {
+    display: none;
+}
+
+.container-icon-logo {
+    display: none;
+}
+
+/* Media Query para telas menores que 781px */
+@media (max-width: 780px) {
+    .header-info,
+    .header-logos,
+    .header-nav {
+        display: none;
+    }
+
+    .container-header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0px;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        background: none;
+        border: none;
+        color: #A68F1F;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .mobile-nav-container {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 312px;
+        background-color: #A68F1F;;
+        box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        flex-direction: column;
+        padding-top: 60px;
+        z-index: 999;
+    }
+
+    .mobile-nav-container.open {
+        transform: translateX(0);
+    }
+
+    .mobile-nav-container img {
+        width: 115px;
+        height: 68ox;
+    }
+
+    .mobile-nav-link {
+        text-decoration: none;
+        color: #16401C;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 10px 20px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .mobile-nav-link.active {
+        background-color: #A68F1F;
+        color: #FFFFFF;
+    }
+
+    .mobile-info-one {
+        width: 100%;
+        height: 40px;
+        background-color: #16401C;
+    }
+
+    .mobile-info-two {
+        width: 100%;
+        height: 20px;
+        background-color: #A68F1F;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .teste {
+        background-color: #16401C;
+        width: 100%;
+        height: 40px;
+    }
+
+    .container-icon-logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+        height: 69.13px;
+
+    }
+
+    .info-two {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 10px;
+    }
 }

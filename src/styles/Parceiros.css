@@ -4,6 +4,7 @@
     align-items: center;
     flex-direction: column;
 }
+
 .clientes {
     display: flex;
     flex-direction: row;
@@ -47,3 +48,13 @@
     font-size: 16px;
 }
 
+@media (max-width: 780px) {
+    .clientes {
+        flex-direction: column;
+    }
+
+    .container-parceiros p {
+        text-align: center;
+        width: 100%;
+    }
+}

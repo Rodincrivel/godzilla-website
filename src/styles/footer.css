@@ -25,3 +25,23 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
+
+@media (max-width: 780px) {
+
+
+    .footer section {
+        flex-direction: column;
+        display: flex;
+        gap: 0;
+        align-items: start;
+    }
+
+    .footer p {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

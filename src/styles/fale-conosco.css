@@ -29,3 +29,13 @@
     gap: 48px;
     margin-top: 48px;
 }
+
+@media (max-width: 780px) {
+    .paragraphStyles {
+        width: 100%;
+    }
+
+    .container-contato {
+        flex-direction: column;
+    }
+}
