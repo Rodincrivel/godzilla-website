@@ -105,9 +105,10 @@
         display: block;
         background: none;
         border: none;
-        color: #A68F1F;
+        color: #16401C;
         font-size: 24px;
         cursor: pointer;
+        margin-left: 16px;
     }
 
     .mobile-nav-container {
@@ -175,17 +176,28 @@
     .container-icon-logo {
         display: flex;
         flex-direction: row;
-        justify-content: start;
+        justify-content: space-between;
         align-items: center;
         width: 100%;
         height: 69.13px;
-
+        background-color: white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
     .info-two {
-        color: white;
+        color: #16401C;
         font-family: 'Poppins', sans-serif;
-        font-weight: 700;
+        font-weight: 300;
         font-size: 10px;
+    }
+
+    .help {
+        width: 50px;
+        height: 50px;
+        background-color: none;
+    }
+
+    .paragraph-oil-impact {
+        padding: 0px 16px 0px 16px;
     }
 }

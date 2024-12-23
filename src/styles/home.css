@@ -79,7 +79,7 @@
         font-weight: 300;
         font-size: 12px;
         text-align: start;
-        padding: 16px;
+        padding: 0px 16px 0px 16px
     }
 
     .container-step h3 {
@@ -99,6 +99,17 @@
 
     .conscious-disposal {
         gap: 0;
+    }
+
+    .font-news p {
+        display: flex;
+        margin-left: 16px;
+        justify-content: start;
+        font-size: 12px;
+    }
+
+    .descarte-video {
+        height: auto;
     }
 
 }

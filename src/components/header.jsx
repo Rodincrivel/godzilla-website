@@ -56,7 +56,7 @@ const Header = () => {
 
                 </div>
                 <div className='mobile-info-two'>
-                    <p className='info-two'>Agende sua coleta | 11 94644-7239</p>
+                    <p className='info-two'>Agende sua coleta: 11 94644-7239</p>
                 </div>
 
 
@@ -70,6 +70,9 @@ const Header = () => {
                         {menuOpen ? <FaTimes /> : <FaBars />}
                     </button>
                     <img src="/LogoNome.png" alt="Logo Nome" className="logo" />
+                    <div className='help'>
+
+                    </div>
                 </div>
             </div>
 
