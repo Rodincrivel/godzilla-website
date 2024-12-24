@@ -26,22 +26,70 @@
     font-family: 'Poppins', sans-serif;
 }
 
-@media (max-width: 780px) {
 
+.footer p {
+    text-align: start; /* Alinha o texto à esquerda no mobile */
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 300;
+}
+
+.footer h5 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width: 780px) {
+    .footer {
+        justify-content: flex-start; /* Alinha todo o conteúdo ao início no eixo principal */
+        padding: 16px; /* Ajusta o espaçamento interno */
+    }
 
     .footer section {
-        flex-direction: column;
         display: flex;
-        gap: 0;
-        align-items: start;
+        flex-direction: column; /* Muda para coluna no mobile */
+        align-items: flex-start; /* Alinha os itens ao início no eixo cruzado */
+        justify-content: flex-start; /* Alinha ao início no eixo principal */
+        gap: 16px; /* Ajusta o espaçamento entre os itens */
+        width: 100%; /* Garante que a largura seja responsiva */
+        padding: 0; /* Remove padding desnecessário */
+        margin-bottom: 16px;
     }
 
     .footer p {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+        text-align: start; /* Alinha o texto à esquerda no mobile */
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-weight: 300;
     }
+
+    .footer h5 {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-weight: bold;
+    }
+
+    footer a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .social-media, .site-map {
+        margin-bottom: 6px;
+    }
+
 }

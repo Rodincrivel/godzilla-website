@@ -68,6 +68,10 @@
 
     .move-container {
         width: 100%;
+        max-width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .container-paragraph-oil-impact {

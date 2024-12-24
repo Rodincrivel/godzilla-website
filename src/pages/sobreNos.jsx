@@ -87,7 +87,7 @@ const SobreNos = () => {
           <ComponentFuncionarios
             imgSrc="/funcionario-01.png"
             subtitulo="Nome:"
-            paragraph="Fernando Almeida Spencer"
+            paragraph="Rodrigo Holanda de Siqueira"
           />
         </div>
 

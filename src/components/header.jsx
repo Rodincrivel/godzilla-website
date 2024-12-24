@@ -26,7 +26,7 @@ const Header = () => {
             {/* Informações adicionais */}
             <div className="header-info">
                 <p className='info-one'>Mais de 10 anos de experiência e parceria com nossos clientes.</p>
-                <p className='info-two'>Agende sua coleta | 11 94644-7239</p>
+                <p className='info-two'>Agende sua coleta: 11 94644-7239</p>
             </div>
             <div className='container-header'>
                 {/* Logos */}

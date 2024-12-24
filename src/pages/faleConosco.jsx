@@ -17,7 +17,7 @@ const FaleConosco = () => {
       <section className="container-contato">
         <ComponentCardContato
           subtitulo="WHATSAPP"
-          paragraph="(11) 95758-2806"
+          paragraph="(11) 94644-7239"
           imgSrc="/icone-cel-1.png"
         />
 

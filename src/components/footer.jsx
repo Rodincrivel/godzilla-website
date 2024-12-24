@@ -6,11 +6,16 @@ const Footer = () => {
     return (
         <footer className="footer">
             <section>
-                <div className="social-media">
+                <div className="logo-container">
                     <img src="/LogoNome.png" alt="Logo Nome" className="logo" />
-                    <h5>GODZILLA COLETA DE ÓLEO</h5>
-                    <p>Siga Nós nas redes sociais!</p>
-                    <a href="https://www.instagram.com/godzillacoleta?igsh=MXdleTN0enlqN2V4cA==" target="_blank" rel="noopener noreferrer" nav-link-footer>Instagram/GodzillaColetaDeOleo</a>
+                </div>
+
+                <div className="social-media">
+                    <div className="social-media-text">
+                        <h5>GODZILLA COLETA DE ÓLEO</h5>
+                        <p>Siga Nós nas redes sociais!</p>
+                        <a href="https://www.instagram.com/godzillacoleta?igsh=MXdleTN0enlqN2V4cA==" target="_blank" rel="noopener noreferrer" nav-link-footer>Instagram/GodzillaColetaDeOleo</a>
+                    </div>
                 </div>
 
                 <div className="site-map">
@@ -41,7 +46,6 @@ const Footer = () => {
                     <p>contato@godzillacoletadeoleo.com</p>
                 </div>
             </section>
-            <div></div>
             <p>© 2024 Godzilla Coleta de Óleo - Todos os direitos reservados - Desenvolvimento: <a href="https://github.com/Rodincrivel" target="_blank" rel="noopener noreferrer">Rodrigo Holanda</a></p>
         </footer>
     );
