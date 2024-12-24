@@ -60,9 +60,9 @@
     /* Garante que o círculo fique atrás dos cards */
 }
 
-.foto-luis {
+.card-apresentacao img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .container-content-paragraph-apresentacao {

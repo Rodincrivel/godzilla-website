@@ -28,7 +28,8 @@ const SobreNos = () => {
           <div className='shape-circle'></div>
           <div className='container-card-apresentacao-2'>
             <div className='card-apresentacao'>
-              <video src="/god-coleta.mp4" autoplay loop muted controls></video></div>
+              <img src="/baldes.jpg" alt="" />
+            </div>
           </div>
         </div>
 
